@@ -197,7 +197,7 @@ li.right{
   width: 100px;
   font-size: 25px;
   background-color: black;
-  color: gold;
+  color: palevioletred;
   text-transform: initial;
 
 }
@@ -306,28 +306,28 @@ li.right{
 }
 #my-div1 {
   background: rgb(4, 4, 40, 0.5);
-  width: 1600px;
+  width: 2100px;
   height: 400px;
   margin-left: -10px;
 }
 #my-div2 {
   
   background: rgb(5, 5, 55, 0.5);
-  width: 1600px;
+  width: 2100px;
   height: 400px;
   margin-left: -10px;
 }
 #my-div3 {
   
   background: rgb(6, 6, 70, 0.5);
-  width: 1600px;
+  width: 2100px;
   height: 400px;
   margin-left: -10px;
 }
 #my-div4 {
   
   background: rgba(7, 7, 85, 0.5);
-  width: 1600px;
+  width: 2100px;
   height: 400px;
   margin-left: -10px;
 }
