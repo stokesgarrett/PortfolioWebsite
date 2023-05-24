@@ -4,7 +4,32 @@
     <link rel='stylesheet' href='style.css'>
     <title> Port</title>
   </head>
-  <style>body{min-height:2037px;}</style>
+  <style>
+  body{min-height:2037px;}  
+  .clickable-div {cursor: pointer;}
+  #my-div1:hover {color:palevioletred;background-color: purple;opacity:1;}
+  #my-div2:hover {color:palevioletred;background-color: purple;opacity:1;}
+  #my-div3:hover {color:palevioletred;background-color: purple;opacity:1;}
+  #my-div4:hover {color:palevioletred;background-color: purple;opacity:1;}
+  </style>
+  <script>
+    function redirectToCICIDS() {
+      // Redirect to another HTML page
+      window.location.href = 'AnalyzationOfCICIDS2017.html';
+    }
+    function redirectToAWS() {
+      // Redirect to another HTML page
+      window.location.href = 'AWSWebAppHosting.html';
+    }
+    function redirectToArista() {
+      // Redirect to another HTML page
+      window.location.href = 'AristaNetworks.html';
+    }
+    function redirectToVuln() {
+      // Redirect to another HTML page
+      window.location.href = 'VulnerabilityManagement101.html';
+    }
+  </script>
   <body style="background-color:black;">
     <ul style = "position:absolute; left:0px; top:0px;">
       <li><a class="active"href="Main.html">Home</a> </li>
@@ -12,40 +37,39 @@
       <li><a class="active"href="Projects.html">Projects</a> </li>
       <li class="right"><a href="contact.html">Contact</a></li>
     </ul>
-    <div class="fade-in6">
-      <h4 style= "position:absolute; left:160px; top:50px;"> A Collection of My Projects. </h4>
+    <div class="fade-in3">
+      <h4 style= "position:absolute; left:120px; top:50px;"> A Collection of My Favorite Projects. </h4>
       </div>
-      <div class="fade-in9">
-      <h5 style= "position:absolute; left:160px; top:150px;">Continuously expanding...</h5>
+      <div class="fade-in3">
+      <h5 style= "position:absolute; left:120px; top:150px;">Continuously expanding...</h5>
       </div>
-    <div class="fade-in9">
-    <div class ="box">
+    <div class="clickable-div" onclick="redirectToCICIDS()">
+    <div class="fade-in3">
       <div id="my-div1" style="margin-top: 400px;position:absolute;">
-        <h1 style="position:absolute; left:230px; top:100px;">Analyzation of CICIDS2017</h1>
-        <h5 style="position:absolute; left:240px; top:170px; width:40%;">A deep analysis of labelled network flows, identifing anomalous behavior on a network indicating botnet, bruteforce, port scan, and ddos attacks.</h5>
-        <img src = "images\hangman.png"alt = "logo" style = "height: 100px; border: 5px solid black;position:absolute; left:120px; top:135px;">
-        <a href="AnalyzationOfCICIDS2017.html" class="nextp" style= "position:absolute;left:120px; top:260px;"> Read &raquo;</a>
+        <h1 style="position:absolute; left:205px; top:100px;">Analyzation of CICIDS2017</h1>
+        <h5 style="position:absolute; left:215px; top:170px; width:40%;">A deep analysis of labelled network flows using an Elastic Cloud ELK stack, identifing anomalous behavior on a network indicating botnet, bruteforce, port scan, and ddos attacks.</h5>
+        <img src = "images/elastic.png"alt = "logo" style = "height: 100px;width:5.5%; border: 5px solid black;position:absolute; left:80px; top:135px;">
       </div></div></div>
-    <div class="fade-in12">
+    <div class="clickable-div" onclick="redirectToAWS()">
+    <div class="fade-in3">
     <div id="my-div2" style="top:808px;position:absolute;">
-        <h1 style="position:absolute; left:230px; top:100px;">AWS Web Application Hosting</h1>
-        <h5 style="position:absolute; left:240px; top:170px; width:20%;"> Virtual piano that can be played with the use of the keyboard. </h5>
-        <img src = "images\pianoicon.jpg"alt = "logo" style = "height: 100px;width:5%; border: 5px solid black;position:absolute; left:120px; top:135px;">
-        <a href="AWSWebAppHosting.html" class="nextp" style= "position:absolute;left:120px; top:260px;"> Read &rAarr;</a>
+        <h1 style="position:absolute; left:205px; top:100px;">AWS Web Application Deployment</h1>
+        <h5 style="position:absolute; left:215px; top:170px; width:40%;">The deployment of a web application using Amazon Web Services, with the services EC2, S3, IAM, CloudWatch, Backup, Billing, and Cloudshell.</h5>
+        <img src = "images/awslogo.png"alt = "logo" style = "height: 100px;width:5.5%; border: 5px solid black;position:absolute; left:80px; top:135px;">
       </div></div></div>
-    <div class="fade-in15">
+    <div class="clickable-div" onclick="redirectToArista()">
+    <div class="fade-in3">
     <div id="my-div3" style="top:1208px;position:absolute;">
-        <h1 style="position:absolute; left:230px; top:100px;">Arista Networks</h1>
-        <h5 style="position:absolute; left:240px; top:170px; width:20%;"> Simple algebraic calculator. </h5>
-        <img src = "images\calculatoricon.jpg"alt = "logo" style = "height: 100px;width:5%; border: 5px solid black;position:absolute; left:120px; top:135px;">
-        <a href="AristaNetworks.html" class="nextp" style= "position:absolute;left:120px; top:260px;"> Read &rAarr;</a>
+        <h1 style="position:absolute; left:205px; top:100px;">Arista Networks</h1>
+        <h5 style="position:absolute; left:215px; top:170px; width:40%;">A full run-down of a titan networking company, Arista Networks, regarding their mission, ethics and security compliance, code of ethics, and security operations.</h5>
+        <img src = "images/arista-logo.png"alt = "logo" style = "height: 100px;width:5.5%; border: 5px solid black;position:absolute; left:80px; top:135px;">
       </div></div></div>
-    <div class="fade-in18">
+    <div class="clickable-div" onclick="redirectToVuln()">
+    <div class="fade-in3">
     <div id="my-div4" style="top:1608px;position:absolute;">
-        <h1 style="position:absolute; left:230px; top:100px;">Vulnerability Management 101</h1>
-        <h5 style="position:absolute; left:240px; top:170px; width:20%;"> Tic Tac Toe game. </h5>
-        <img src = "images\tictacicon.png"alt = "logo" style = "height: 100px;width:5%; border: 5px solid black;position:absolute; left:120px; top:135px;">
-        <a href="VulnerabilityManagement101.html" class="nextp" style= "position:absolute;left:120px; top:260px;"> Read &RightTriangle;</a>
+        <h1 style="position:absolute; left:205px; top:100px;">Vulnerability Management 101</h1>
+        <h5 style="position:absolute; left:215px; top:170px; width:40%;">Finding and remediating vulnerabilities on Windows 10 and Windows XP machines using Tenable Nessus.</h5>
+        <img src = "images/windows.jpg"alt = "logo" style = "height: 100px;width:5.5%; border: 5px solid black;position:absolute; left:80px; top:135px;">
     </div></div></div>
   <div class ="footer"></div>
   </body>
