@@ -32,7 +32,6 @@
       h1
       {
         font-size: 50px;
-      text-align: center;
       text-transform: initial;
       color:palevioletred;
       }
@@ -42,19 +41,12 @@
       text-align: inherit;
       text-transform: initial;
       color:palevioletred;
-      display: block;
-      margin-top: 4.0em;
-      margin-bottom: 0.83em;
-      margin-left: 0;
-      margin-right: 0;
       font-weight: bold;
       }
       h3
       {
-        width: 40%;
-      display: block;
+        width: 42%;
       font-size: 20px;
-      text-align: left;
       text-transform: initial;
       color: plum;
       }
@@ -165,7 +157,7 @@ li.right{
 
 /* next button */
 .next {
-  position: fixed;
+  position: relative;
   background-color: black;
   color: palevioletred;
   text-transform: uppercase;
