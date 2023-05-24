@@ -75,16 +75,18 @@
       text-transform: initial;
       color: plum;
       }
-      @media screen and (max-width: 250px) {
-        ul{
-        
-            /* Adjust the list styles to shrink on mobile */
-            font-size: 14px;
-            padding-left: 10px;
-            width: 100%;
-          margin-top: 0;
-          }
+      @media (max-width: 767px) {
+        /* Styles for screens up to 767px wide (typically mobile) */
+        ul {
+          /* Adjust the list styles to display horizontally on mobile */
+          flex-direction: row;
+          flex-wrap: wrap;
         }
+        ul li {
+          flex: 0 0 50%;
+          /* Adjust the width as needed for the number of columns you want on mobile */
+        }
+      }
     
       ul
 {
