@@ -75,12 +75,7 @@
       text-transform: initial;
       color: plum;
       }
-      @media (max-width: 767px) {
-        /* Styles for screens up to 767px wide (typically mobile) */
-        .menu li {
-          flex-basis: 50%;
-        }
-      }
+    
       ul
 {
     width: 100%;
