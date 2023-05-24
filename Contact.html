@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel='stylesheet' href='style.css'>
+<title>Contact Me</title>
+<style>
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 5px solid powderblue;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: powderblue;
+}
+h2 {
+    margin-top: 0;
+    color: palevioletred;
+}
+input[type="submit"] {
+    margin-top: 15px;
+}
+.center-button {
+    display: flex;
+    justify-content: center;
+}
+label {
+  display: block;
+  margin-bottom: 10px; /* Adjust the margin as desired */
+  color: palevioletred; /* Adjust the color as desired */
+  line-height: 3; /* Add this line and adjust the value as needed */
+}
+input[type="text"], textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-top: -10px; /* Adjust the margin as desired */
+}
+input[type="submit"] {
+    width: auto;
+    padding: 10px 20px;
+    background-color: black;
+    color: palevioletred;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: purple;
+}
+</style>
+</head>
+<body>
+  <div class="container">
+    <h2>Contact Me</h2>
+    <form action="submit.php" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</body>
+</html>
