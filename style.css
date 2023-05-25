@@ -117,20 +117,15 @@ li a
   padding-right: 100px;
   margin: auto;
 }
+li.right
+{
+  float:right;
+}
 a
 {
   text-decoration: none;
   color: palevioletred;
 }
-
-* {
-  box-sizing: border-box;
-}
-li.right{
-  float:right;
- }
- 
-
  /*backgrn image*/
  body {
   text-transform: uppercase;
