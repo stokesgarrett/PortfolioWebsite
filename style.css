@@ -114,8 +114,8 @@ li a
   display:block;
   text-align: center;
   padding: 12px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 80px;
+  padding-right: 80px;
   margin: auto;
 }
 a
@@ -128,12 +128,6 @@ a
   box-sizing: border-box;
 }
 
-
-
-
-
-
- 
 
  /*backgrn image*/
  body {
