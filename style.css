@@ -47,6 +47,7 @@
       {
         width: 45%;
       font-size: 20px;
+      text-align: inherit;
       text-transform: initial;
       color: plum;
       }
@@ -128,24 +129,10 @@ a
 }
 
 
-/* Create two columns that float next to eachother */
-.column {
-  width: 50%;
-  margin-top: 150px;
-  padding: 30px;
-}
 
 
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .column, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-  }
-}
-li.right{
-  float:right;
- }
+
+
  
 
  /*backgrn image*/
