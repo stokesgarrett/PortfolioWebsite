@@ -126,15 +126,6 @@ a
 * {
   box-sizing: border-box;
 }
-
-
-/* Create two columns that float next to eachother */
-.column {
-  width: 50%;
-  margin-top: 150px;
-  padding: 30px;
-}
-
 li.right{
   float:right;
  }
