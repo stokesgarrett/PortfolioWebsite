@@ -34,6 +34,7 @@
         font-size: 50px;
       text-transform: initial;
       color:palevioletred;
+      position:relative; left:12vh; top:17vh;
       }
       h2
       {
@@ -67,6 +68,7 @@
       text-align: left;
       text-transform: initial;
       color: plum;
+      line-height: 1.5;
       }
       h6
       {
@@ -84,8 +86,7 @@
     padding: 0;
     overflow: hidden;
     background-color: black;
-    
-
+    position: fixed; left: 0px; top: 0px;
 }
  /*this rule defines the elements to alight to the left*/
 li
@@ -134,7 +135,7 @@ a
 }
 
 /* next button */
-.learnmorebutton {
+.learnmore {
   position: relative;
   background-color: black;
   color: palevioletred;
@@ -143,8 +144,24 @@ a
   width: 100%;
   font-size: 16px;
   padding: 10px 20px;
+  left:12vh; top:22vh;
 }
-.learnmorebutton:hover 
+.learnmore:hover 
+{
+  background-color: purple;
+}
+.contact {
+  position: relative;
+  background-color: black;
+  color: palevioletred;
+  text-transform: uppercase;
+  max-width: 200px;
+  width: 100%;
+  font-size: 16px;
+  padding: 10px 20px;
+  position:relative; left:37vh; top:2vh;
+}
+.contact:hover 
 {
   background-color: purple;
 }
@@ -195,27 +212,7 @@ a
   -o-animation: fadeIn ease 15s;
   -ms-animation: fadeIn ease 15s;
 }
-.fade-in18 {
-  animation: fadeIn ease 18s;
-  -webkit-animation: fadeIn ease 18s;
-  -moz-animation: fadeIn ease 18s;
-  -o-animation: fadeIn ease 18s;
-  -ms-animation: fadeIn ease 18s;
-}
-.fade-in21 {
-  animation: fadeIn ease 21s;
-  -webkit-animation: fadeIn ease 21s;
-  -moz-animation: fadeIn ease 21s;
-  -o-animation: fadeIn ease 21s;
-  -ms-animation: fadeIn ease 21s;
-}
-.fade-in24 {
-  animation: fadeIn ease 24s;
-  -webkit-animation: fadeIn ease 24s;
-  -moz-animation: fadeIn ease 24s;
-  -o-animation: fadeIn ease 24s;
-  -ms-animation: fadeIn ease 24s;
-}
+
 @keyframes fadeIn {
   0% {
     opacity:0;
@@ -287,3 +284,35 @@ a
   height: 400px;
   margin-left: -10px;
 }
+.clickable-div {cursor: pointer;}
+#my-div1:hover {color:palevioletred;background-color: purple;opacity:1;}
+#my-div2:hover {color:palevioletred;background-color: purple;opacity:1;}
+#my-div3:hover {color:palevioletred;background-color: purple;opacity:1;}
+#my-div4:hover {color:palevioletred;background-color: purple;opacity:1;}
+
+#projectsbody {
+  min-height: 2037px;
+}
+
+.fade-in3 h2 {
+  position:relative; left:12vh; top:17vh;
+}
+.fade-in3 h4 {
+  position: relative;
+  left: 12vh;
+  top: 10vh;
+  /* Add any other styles you need */
+}
+.fade-in3 h5 {
+  position:relative; left:12vh; top:6vh;
+  }
+.fade-in6 h5,
+      .fade-in9 h5 {
+        position: relative;
+        left: 12vh;
+        top: 6vh;
+        /* Add any other styles you need */
+      }
+.fade-in6 h3 {
+  position:relative; left:12vh; top:17vh;
+  }

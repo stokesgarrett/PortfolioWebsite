@@ -4,33 +4,7 @@
     <link rel='stylesheet' href='style.css'>
     <title> Port</title>
   </head>
-  <style>
-  body{min-height:2037px;}  
-  .clickable-div {cursor: pointer;}
-  #my-div1:hover {color:palevioletred;background-color: purple;opacity:1;}
-  #my-div2:hover {color:palevioletred;background-color: purple;opacity:1;}
-  #my-div3:hover {color:palevioletred;background-color: purple;opacity:1;}
-  #my-div4:hover {color:palevioletred;background-color: purple;opacity:1;}
-  </style>
-  <script>
-    function redirectToCICIDS() {
-      // Redirect to another HTML page
-      window.location.href = 'AnalyzationOfCICIDS2017.html';
-    }
-    function redirectToAWS() {
-      // Redirect to another HTML page
-      window.location.href = 'AWSWebAppHosting.html';
-    }
-    function redirectToArista() {
-      // Redirect to another HTML page
-      window.location.href = 'AristaNetworks.html';
-    }
-    function redirectToVuln() {
-      // Redirect to another HTML page
-      window.location.href = 'VulnerabilityManagement101.html';
-    }
-  </script>
-  <body style="background-color:black;">
+  <body id="projectsbody">
     <ul style = "position:absolute; left:0px; top:0px;">
       <li><a class="active"href="index.html">Home</a> </li>
       <li><a class="active"href="About.html">About</a> </li>
@@ -38,10 +12,8 @@
       <li class="right"><a href="Contact.html">Contact</a></li>
     </ul>
     <div class="fade-in3">
-      <h4 style= "position:absolute; left:120px; top:50px;"> A Collection of My Favorite Projects. </h4>
-      </div>
-      <div class="fade-in3">
-      <h5 style= "position:absolute; left:120px; top:150px;">Continuously expanding...</h5>
+      <h4>A Collection of My Favorite Projects.</h4>
+      <h5>Continuously expanding...</h5>
       </div>
     <div class="clickable-div" onclick="redirectToCICIDS()">
     <div class="fade-in3">
@@ -72,6 +44,7 @@
         <img src = "images/windows.jpg"alt = "logo" style = "height: 100px;width:5.5%; border: 5px solid black;position:absolute; left:80px; top:135px;">
     </div></div></div>
   <div class ="footer"></div>
+  <script src="projscript.js"></script>
   </body>
 </html>
   
