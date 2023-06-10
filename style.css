@@ -372,12 +372,38 @@ input[type="text"], textarea {caret-color: black;}
   }
 
   /* Navigation Bar Styling */
-  li {
-    flex-direction: row;
-    justify-content: flex-start;
-}
-  li a {
-    margin-bottom: 0;
-    margin-right: 10px;
+  ul {
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    position: absolute; left: 0px; top: 0px;
+    }
+    li {
+    float:left;
+    }
+    li:last-child {
+    border: none;
+    }
+    li a:hover {
+    color:palevioletred;
+    background-color: purple;
+    }
+    li a {
+    display:block;
+    text-align: center;
+    padding: 12px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: auto;
+    }
+    li.right {
+    float:left;
+    }
+    a {
+    text-decoration: none;
+    color: palevioletred;
+    }
   }
-}
