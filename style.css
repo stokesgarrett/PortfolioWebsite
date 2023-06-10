@@ -349,7 +349,7 @@ input[type="text"], textarea {caret-color: black;}
   /* Text Stylings */
   h1 {
     font-size: 24px;
-    position:relative; left:12vh; top:15vh;
+    position:relative; left:12vh; top:25vh;
   }
 
   h2 {
