@@ -409,13 +409,13 @@ li.right {
 }
 /* mobile text stylings */
 .fade-in3 h2 {
-  position:relative; left:6vh; top:17vh;
+  position:relative; left:15vh; top:15vh;
 }
 .fade-in6 h3 {
-  position:relative; left:6vh; top:17vh;
+  position:relative; left:12vh; top:15vh;
 }
   .fade-in6 h1 {
-  position:relative; left:6vh; top:17vh;
+  position:relative; left:12vh; top:15vh;
 }
 .learnmore {
   position: relative;
@@ -426,7 +426,7 @@ li.right {
   width: 100%;
   font-size: 16px;
   padding: 10px 20px;
-  left:14vh; top:22vh;
+  left:15vh; top:22vh;
   }
   .learnmore:hover {
   background-color: purple;
