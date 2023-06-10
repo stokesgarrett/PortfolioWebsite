@@ -407,5 +407,18 @@ ul a:hover {
 
 li.right {
   float:left
-  }
+}
+.fade-in3 h2 {
+  position:relative; left:6vh; top:17vh;
+}
+.fade-in6 h3 {
+  position:relative; left:6vh; top:17vh;
+}
+  .fade-in6 h1 {
+  position:relative; left:6vh; top:17vh;
+}
+.I-style {
+  position:absolute; left:60%; top:13%; height: 250px;
+  width: 10%;
+}
 }
