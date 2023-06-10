@@ -1,50 +1,71 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel='stylesheet' href='style.css'>
-    <title> Port</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Projects</title>
   </head>
   <body id="projectsbody">
-    <ul style = "position:absolute; left:0px; top:0px;">
-      <li><a class="active"href="index.html">Home</a> </li>
-      <li><a class="active"href="About.html">About</a> </li>
-      <li><a class="active"href="Projects.html">Projects</a> </li>
-      <li class="right"><a href="Contact.html">Contact</a></li>
-    </ul>
-    <div class="fade-in3">
-      <h4>A Collection of My Favorite Projects.</h4>
-      <h5>Continuously expanding...</h5>
+    <header>
+      <nav>
+        <ul>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a class="active" href="About.html">About</a></li>
+          <li><a class="active" href="Projects.html">Projects</a></li>
+          <li class="right"><a href="Contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="fade-in3">
+        <h4>A Collection of My Favorite Projects.</h4>
+        <h5>Continuously expanding...</h5>
       </div>
-    <div class="clickable-div" onclick="redirectToCICIDS()">
-    <div class="fade-in3">
-      <div id="my-div1" style="margin-top: 400px;position:absolute;">
-        <h1 style="position:absolute; left:205px; top:100px;">Analyzation of CICIDS2017</h1>
-        <h5 style="position:absolute; left:215px; top:170px; width:40%;">A deep analysis of labelled network flows using an Elastic Cloud ELK stack, identifing anomalous behavior on a network indicating botnet, bruteforce, port scan, and ddos attacks.</h5>
-        <img src = "images/elastic.png"alt = "logo" style = "height: 100px;width:5.5%; border: 5px solid black;position:absolute; left:80px; top:135px;">
-      </div></div></div>
-    <div class="clickable-div" onclick="redirectToAWS()">
-    <div class="fade-in3">
-    <div id="my-div2" style="top:808px;position:absolute;">
-        <h1 style="position:absolute; left:205px; top:100px;">AWS Web Application Deployment</h1>
-        <h5 style="position:absolute; left:215px; top:170px; width:40%;">The deployment of a web application using Amazon Web Services, with the services EC2, S3, IAM, CloudWatch, Backup, Billing, and Cloudshell.</h5>
-        <img src = "images/awslogo.png"alt = "logo" style = "height: 100px;width:5.5%; border: 5px solid black;position:absolute; left:80px; top:135px;">
-      </div></div></div>
-    <div class="clickable-div" onclick="redirectToArista()">
-    <div class="fade-in3">
-    <div id="my-div3" style="top:1208px;position:absolute;">
-        <h1 style="position:absolute; left:205px; top:100px;">Arista Networks</h1>
-        <h5 style="position:absolute; left:215px; top:170px; width:40%;">A full run-down of a titan networking company, Arista Networks, regarding their mission, ethics and security compliance, code of ethics, and security operations.</h5>
-        <img src = "images/arista-logo.png"alt = "logo" style = "height: 100px;width:5.5%; border: 5px solid black;position:absolute; left:80px; top:135px;">
-      </div></div></div>
-    <div class="clickable-div" onclick="redirectToVuln()">
-    <div class="fade-in3">
-    <div id="my-div4" style="top:1608px;position:absolute;">
-        <h1 style="position:absolute; left:205px; top:100px;">Vulnerability Management 101</h1>
-        <h5 style="position:absolute; left:215px; top:170px; width:40%;">Finding and remediating vulnerabilities on Windows 10 and Windows XP machines using Tenable Nessus.</h5>
-        <img src = "images/windows.jpg"alt = "logo" style = "height: 100px;width:5.5%; border: 5px solid black;position:absolute; left:80px; top:135px;">
-    </div></div></div>
-  <div class ="footer"></div>
-  <script src="projscript.js"></script>
+
+      <div class="clickable-div" onclick="redirectToCICIDS()">
+        <div class="fade-in3">
+          <div id="my-div1">
+            <h1 class="project-heading">Analyzation of CICIDS2017</h1>
+            <p class="project-subheading">A deep analysis of labelled network flows using an Elastic Cloud ELK stack, identifying anomalous behavior on a network indicating botnet, brute force, port scan, and DDoS attacks.</p>
+            <img src="images/elastic.png" alt="logo" class="project-imageproperties">
+          </div>
+        </div>
+      </div>
+
+      <div class="clickable-div" onclick="redirectToAWS()">
+        <div class="fade-in3">
+          <div id="my-div2">
+            <h1 class="project-heading">AWS Web Application Deployment</h1>
+            <p class="project-subheading">The deployment of a web application using Amazon Web Services, with the services EC2, S3, IAM, CloudWatch, Backup, Billing, and Cloudshell.</p>
+            <img src="images/awslogo.png" alt="logo" class="project-imageproperties">
+          </div>
+        </div>
+      </div>
+
+      <div class="clickable-div" onclick="redirectToArista()">
+        <div class="fade-in3">
+          <div id="my-div3">
+            <h1 class="project-heading">Arista Networks</h1>
+            <p class="project-subheading">A full run-down of a titan networking company, Arista Networks, regarding their mission, ethics and security compliance, code of ethics, and security operations.</p>
+            <img src="images/arista-logo.png" alt="logo" class="project-imageproperties">
+          </div>
+        </div>
+      </div>
+
+      <div class="clickable-div" onclick="redirectToVuln()">
+        <div class="fade-in3">
+          <div id="my-div4">
+            <h1 class="project-heading">Vulnerability Management 101</h1>
+            <p class="project-subheading">Finding and remediating vulnerabilities on Windows 10 and Windows XP machines using Tenable Nessus.</p>
+            <img src="images/windows.jpg" alt="logo" class="project-imageproperties">
+          </div>
+        </div>
+      </div>
+    </main>
+
+      <footer class="footer"></footer>
+    <script src="projscript.js"></script>
   </body>
 </html>
-  

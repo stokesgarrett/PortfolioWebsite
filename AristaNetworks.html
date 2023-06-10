@@ -1,38 +1,32 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel='stylesheet' href='style.css'>
-    <title>
-      
-    </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Arista Networks</title>
   </head>
-  <style>
-        body {
-          min-height: 1500px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          margin: 0;
-        }
-        .box {
-      text-align: center;
-        }
-        .box h6 {
-      display: inline-block;
-        }
-  </style>
-  <body>
-    <ul style = "position:fixed; left:0px; top:0px;">
-      <li><a class="active"href="Projects.html">Back</a> </li>
-    </ul>
-        <div class ="fade-in3"><div class ="box">
-            <h1 style="margin-top:-140px;">Arista Networks</h1>
-            <div class="fade-in3">
-              <h6 style="margin-top:-20px">Every organization has mission objectives, and accomplishes these objectives with guidelines and protocols they follow. Here we took a look at a successful networking company, Arista Networks, and see how they incorporate their protocols and guidelines, specifically cyber-security protocols and guidelines, to accomplish their mission objectives, as well as learn about their core values and ethics.</h6>
-            </div>
-            <embed style="margin-top:40px" src="Files/AristaNetworksReport.pdf" type="application/pdf" width="1200px" height="1000px" />
-        </div></div>
-  <div class ="footer"></div>
-  </body>
-  </html>
+  <body id="embedbody">
+    <header>
+      <nav>
+        <ul>
+          <li><a class="active" href="Projects.html">Back</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <div class="fade-in3">
+        <div class="box">
+          <h1 class="embed-heading">Arista Networks</h1>
+          <div class="fade-in3">
+            <h6 class="embed-subheading">Every organization has mission objectives, and accomplishes these objectives with guidelines and protocols they follow. Here we took a look at a successful networking company, Arista Networks, and see how they incorporate their protocols and guidelines, specifically cyber-security protocols and guidelines, to accomplish their mission objectives, as well as learn about their core values and ethics.</h6>
+          </div>
+          <embed class="embed-pdf" src="Files/AristaNetworksReport.pdf" type="application/pdf"/>
+        </div>
+      </div>
+    </main>
 
+    <footer class="footer"></footer>
+  </body>
+</html>

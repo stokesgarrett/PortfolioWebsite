@@ -1,38 +1,32 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel='stylesheet' href='style.css'>
-    <title>
-      
-    </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>AWS Web Hosting</title>
   </head>
-  <style>
-        body {
-          min-height: 1500px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          margin: 0;
-        }
-        .box {
-      text-align: center;
-        }
-        .box h6 {
-      display: inline-block;
-        }
-  </style>
-  <body>
-    <ul style = "position:fixed; left:0px; top:0px;">
-      <li><a class="active"href="Projects.html">Back</a> </li>
-    </ul>
-        <div class ="fade-in3"><div class ="box">
-            <h1 style="margin-top:-140px;">Managing and Hosting a Web Server using AWS</h1>
-            <div class="fade-in3">
-              <h6 style="margin-top:-20px">Amazon Web Services is currently the most dominant cloud platform, and can be used for just about anything. Here we used AWS to host a web application which gives insight into cyber-security certifications. We used 7 total services, EC2, S3, IAM, Cloudwatch, Backup, Billing, and Cloudshell to accomplish this.</h6>
-            </div>
-            <embed style="margin-top:40px" src="Files/AWSWebApplicationHosting.pdf" type="application/pdf" width="1200px" height="1000px" />
-        </div></div>
-  <div class ="footer"></div>
-  </body>
-  </html>
+  <body id="embedbody">
+    <header>
+      <nav>
+        <ul>
+          <li><a class="active" href="Projects.html">Back</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <div class="fade-in3">
+        <div class="box">
+          <h1 class="embed-heading">Managing and Hosting a Web Server using AWS</h1>
+          <div class="fade-in3">
+            <h6 class="embed-subheading">Amazon Web Services is currently the most dominant cloud platform, and can be used for just about anything. Here we used AWS to host a web application which gives insight into cyber-security certifications. We used 7 total services, EC2, S3, IAM, Cloudwatch, Backup, Billing, and Cloudshell to accomplish this.</h6>
+          </div>
+          <embed class="embed-pdf" src="Files/AWSWebApplicationHosting.pdf" type="application/pdf"/>
+        </div>
+      </div>
+    </main>
 
+    <footer class="footer"></footer>
+  </body>
+</html>
