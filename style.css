@@ -394,14 +394,16 @@ ul li {
 ul a {
   text-decoration: none;
   color: palevioletred;
-  padding: 8px 16px;
+  padding: 8px;
   margin-bottom: 8px;
+  box-sizing: border-box;
 }
 
 ul a:hover {
   color: palevioletred;
   background-color: purple;
 }
+
 
 li.right {
   float:left
