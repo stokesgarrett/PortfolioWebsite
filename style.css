@@ -334,3 +334,47 @@ input[type=submit]:hover {
 background-color: purple;
 }
 input[type="text"], textarea {caret-color: black;}
+
+/* Mobile Styles */
+@media (max-width: 600px) {
+  /* Header and Footer Styles */
+  .header {
+    padding: 5px;
+  }
+
+  .footer {
+    height: 60px;
+  }
+
+  /* Text Stylings */
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  h4 {
+    font-size: 24px;
+  }
+
+  h5 {
+    font-size: 12px;
+  }
+
+  h6 {
+    font-size: 12px;
+  }
+
+  /* Navigation Bar Styling */
+  li a {
+    padding: 8px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
