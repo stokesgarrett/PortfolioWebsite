@@ -349,6 +349,7 @@ input[type="text"], textarea {caret-color: black;}
   /* Text Stylings */
   h1 {
     font-size: 24px;
+    position:relative; left:12vh; top:15vh;
   }
 
   h2 {
@@ -359,6 +360,7 @@ input[type="text"], textarea {caret-color: black;}
   h3 {
     font-size: 16px;
     width: 60%;
+    position:relative; left:12vh; top:15vh;
   }
 
   h4 {
@@ -409,13 +411,6 @@ li.right {
   float:left
 }
 /* mobile text stylings */
-
-.fade-in6 h3 {
-  position:relative; left:12vh; top:15vh;
-}
-  .fade-in6 h1 {
-  position:relative; left:12vh; top:15vh;
-}
 .learnmore {
   position: relative;
   background-color: black;
