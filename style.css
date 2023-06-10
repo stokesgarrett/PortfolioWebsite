@@ -403,11 +403,28 @@ ul a:hover {
   color: palevioletred;
   background-color: purple;
 }
-
-
 li.right {
   float:left
 }
+/* mobile text stylings */
+h1 {
+  font-size: 50px;
+  text-transform: initial;
+  color:palevioletred;
+  }
+  h2 {
+  font-size: 25px;
+  text-align: inherit;
+  text-transform: initial;
+  color:palevioletred;
+  font-weight: bold;
+  }
+  h3 {
+  width: 60%;
+  font-size: 20px;
+  text-transform: initial;
+  color: plum;
+  }
 .fade-in3 h2 {
   position:relative; left:6vh; top:17vh;
 }
@@ -417,8 +434,22 @@ li.right {
   .fade-in6 h1 {
   position:relative; left:6vh; top:17vh;
 }
+.learnmore {
+  position: relative;
+  background-color: black;
+  color: palevioletred;
+  text-transform: uppercase;
+  max-width: 200px;
+  width: 100%;
+  font-size: 16px;
+  padding: 10px 20px;
+  left:14vh; top:22vh;
+  }
+  .learnmore:hover {
+  background-color: purple;
+  }
 .I-style {
-  position:absolute; left:60%; top:13%; height: 250px;
-  width: 10%;
+  position:absolute; left:60%; top:60%; height: 250px;
+  width: 30%;
 }
 }
