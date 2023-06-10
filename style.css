@@ -371,11 +371,10 @@ input[type="text"], textarea {caret-color: black;}
     font-size: 12px;
   }
 
-  /* Navigation Bar Styling */
 /* CSS for mobile navigation bar */
 ul {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   background-color: black;
   position: fixed;
   top: 0;
@@ -389,6 +388,7 @@ ul {
 ul li {
   display: flex;
   justify-content: flex-start;
+  flex: 1;
 }
 
 ul a {
@@ -402,4 +402,8 @@ ul a:hover {
   color: palevioletred;
   background-color: purple;
 }
+
+li.right {
+  float:left
+  }
 }
