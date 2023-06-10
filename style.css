@@ -374,7 +374,5 @@ input[type="text"], textarea {caret-color: black;}
   /* Navigation Bar Styling */
   li a {
     padding: 8px;
-    padding-left: 50px;
-    padding-right: 50px;
   }
 }
