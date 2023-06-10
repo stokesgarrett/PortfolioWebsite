@@ -353,6 +353,7 @@ input[type="text"], textarea {caret-color: black;}
 
   h2 {
     font-size: 20px;
+    position:relative; left:30vh; top:10vh;
   }
 
   h3 {
