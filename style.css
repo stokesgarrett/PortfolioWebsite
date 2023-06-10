@@ -383,6 +383,8 @@ input[type="text"], textarea {caret-color: black;}
     }
     li {
     float:left;
+    flex-direction: row;
+    justify-content: flex-start;
     }
     li:last-child {
     border: none;
@@ -392,12 +394,8 @@ input[type="text"], textarea {caret-color: black;}
     background-color: purple;
     }
     li a {
-    display:block;
-    text-align: center;
-    padding: 12px;
-    padding-left: 100px;
-    padding-right: 100px;
-    margin: auto;
+      margin-bottom: 0;
+      margin-right: 10px;
     }
     li.right {
     float:left;
